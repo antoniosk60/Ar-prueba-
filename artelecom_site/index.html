@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ARTELECOM | Electricidad, Remodelación e Impermeabilizaciones</title>
+  <meta name="description" content="ARTELECOM (Antonio Randa Telecomunicaciones): especialistas en electricidad, remodelación e impermeabilizaciones. Cotiza hoy y transforma tus espacios con calidad profesional." />
+  <meta name="keywords" content="ARTELECOM, Antonio Randa, telecomunicaciones, electricidad, remodelación, impermeabilizaciones, mantenimiento, construcción" />
+  <link rel="canonical" href="https://example.com/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ARTELECOM | Electricidad, Remodelación e Impermeabilizaciones" />
+  <meta property="og:description" content="Soluciones eléctricas, remodelaciones e impermeabilizaciones con estándares profesionales." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/images/og-cover.jpg" />
+
+  <!-- Tailwind CSS via CDN (rápido para demo) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#0ea5e9', // sky-500
+              dark: '#0369a1'     // sky-700
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ARTELECOM (Antonio Randa Telecomunicaciones)",
+    "telephone": "+52 729 685 3914",
+    "email": "randaleonel@gmail.com",
+    "url": "https://example.com/",
+    "image": "https://example.com/images/og-cover.jpg",
+    "priceRange": "$$",
+    "areaServed": "México",
+    "description": "Especialistas en electricidad, remodelación e impermeabilizaciones con estándares profesionales.",
+    "sameAs": [
+      "https://wa.me/527296853914"
+    ]
+  }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+  <!-- Topbar -->
+  <div class="bg-gray-900 text-gray-100 text-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-2">
+      <span>Atención inmediata: <a class="font-semibold underline" href="https://wa.me/527296853914" target="_blank" rel="noopener">+52 729 685 3914</a></span>
+      <a href="mailto:randaleonel@gmail.com" class="hover:underline">randaleonel@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200">
+    <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <div class="h-9 w-9 rounded-xl bg-brand flex items-center justify-center text-white font-bold">AR</div>
+        <span class="font-bold tracking-tight">ARTELECOM</span>
+      </a>
+      <ul class="hidden md:flex items-center gap-6 font-medium">
+        <li><a href="#servicios" class="hover:text-brand">Servicios</a></li>
+        <li><a href="#portafolio" class="hover:text-brand">Portafolio</a></li>
+        <li><a href="#nosotros" class="hover:text-brand">Nosotros</a></li>
+        <li><a href="#contacto" class="hover:text-brand">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="hidden md:inline-flex px-4 py-2 rounded-xl bg-brand text-white font-semibold shadow hover:bg-brand-dark">Cotiza ahora</a>
+      <button id="menuBtn" class="md:hidden p-2 rounded-lg border border-gray-200">☰</button>
+    </nav>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden px-4 pb-4 space-y-2">
+      <a href="#servicios" class="block p-2 rounded-lg hover:bg-gray-100">Servicios</a>
+      <a href="#portafolio" class="block p-2 rounded-lg hover:bg-gray-100">Portafolio</a>
+      <a href="#nosotros" class="block p-2 rounded-lg hover:bg-gray-100">Nosotros</a>
+      <a href="#contacto" class="block p-2 rounded-lg hover:bg-gray-100">Contacto</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <img src="images/hero.jpg" alt="Equipo de trabajo ARTELECOM" class="absolute inset-0 h-full w-full object-cover opacity-30" loading="lazy">
+    <div class="relative max-w-7xl mx-auto px-4 py-24 sm:py-28">
+      <div class="max-w-2xl" data-aos="fade-up">
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">
+          Ingeniería que se nota, <span class="text-brand">acabados que perduran</span>.
+        </h1>
+        <p class="mt-4 text-lg text-gray-700">
+          Electricidad, remodelación e impermeabilizaciones con estándares profesionales.
+          Entregamos en tiempo, cuidamos el detalle y priorizamos tu seguridad.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://wa.me/527296853914" target="_blank" rel="noopener" class="px-5 py-3 rounded-xl bg-brand text-white font-semibold shadow hover:bg-brand-dark">WhatsApp</a>
+          <a href="#portafolio" class="px-5 py-3 rounded-xl border border-gray-300 bg-white font-semibold hover:border-brand">Ver trabajos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold" data-aos="fade-up">Servicios</h2>
+      <p class="text-gray-600 mt-2" data-aos="fade-up" data-aos-delay="100">Expertise real, sin rodeos.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card" data-aos="zoom-in">
+        <div class="icon">⚡</div>
+        <h3>Electricidad</h3>
+        <p>Instalaciones nuevas, diagnóstico y corrección, tableros, canalización, iluminación LED, certificaciones.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon">🧱</div>
+        <h3>Remodelación</h3>
+        <p>Obra civil, acabados finos, plomería, carpintería, muros y plafones de tablaroca, pintura arquitectónica.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon">🛡️</div>
+        <h3>Impermeabilizaciones</h3>
+        <p>Membrana prefabricada, acrílico, poliuretano; preparación de superficie y garantías por escrito.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section id="portafolio" class="bg-white border-y">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="flex items-end justify-between mb-8">
+        <div>
+          <h2 class="text-3xl font-bold" data-aos="fade-up">Portafolio</h2>
+          <p class="text-gray-600 mt-2" data-aos="fade-up" data-aos-delay="100">Proyectos recientes de ARTELECOM.</p>
+        </div>
+        <a href="#contacto" class="hidden sm:inline-flex px-4 py-2 rounded-xl border border-gray-300 bg-white font-semibold hover:border-brand" data-aos="fade-left">Cotiza tu proyecto</a>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img src="images/port1.jpg" alt="Proyecto 1" class="gallery" loading="lazy" data-aos="fade-up">
+        <img src="images/port2.jpg" alt="Proyecto 2" class="gallery" loading="lazy" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/port3.jpg" alt="Proyecto 3" class="gallery" loading="lazy" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/port4.jpg" alt="Proyecto 4" class="gallery" loading="lazy" data-aos="fade-up">
+        <img src="images/port5.jpg" alt="Proyecto 5" class="gallery" loading="lazy" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/port6.jpg" alt="Proyecto 6" class="gallery" loading="lazy" data-aos="fade-up" data-aos-delay="200">
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="grid lg:grid-cols-2 gap-10 items-center">
+      <div data-aos="fade-right">
+        <h2 class="text-3xl font-bold">Nos tomamos el detalle en serio.</h2>
+        <p class="mt-4 text-gray-700">En ARTELECOM combinamos técnica y oficio. Dirigidos por Antonio Randa, entregamos soluciones que priorizan seguridad, estética y durabilidad. Nuestra promesa es simple: calidad sin excusas.</p>
+        <ul class="mt-6 space-y-2 text-gray-700">
+          <li>• Personal calificado y equipo profesional</li>
+          <li>• Entregas puntuales y presupuesto claro</li>
+          <li>• Garantías por escrito</li>
+        </ul>
+      </div>
+      <div data-aos="fade-left">
+        <img src="images/about.jpg" alt="Equipo ARTELECOM en obra" class="rounded-2xl shadow-xl" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="relative py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="cta" data-aos="zoom-in">
+        <div>
+          <h3 class="text-2xl font-bold">Listo para cotizar tu proyecto?</h3>
+          <p class="text-gray-700">Hablemos hoy y arranquemos con un diagnóstico sin costo.</p>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://wa.me/527296853914" target="_blank" rel="noopener" class="btn-primary">WhatsApp</a>
+          <a href="#contacto" class="btn-secondary">Formulario</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div data-aos="fade-right">
+          <h2 class="text-3xl font-bold">Contacto</h2>
+          <p class="mt-2 text-gray-700">Cuéntanos de tu proyecto. Respondemos el mismo día.</p>
+          <div class="mt-4 space-y-2 text-gray-800">
+            <p>📞 <a class="underline" href="https://wa.me/527296853914" target="_blank" rel="noopener">+52 729 685 3914</a></p>
+            <p>✉️ <a class="underline" href="mailto:randaleonel@gmail.com">randaleonel@gmail.com</a></p>
+          </div>
+        </div>
+        <form id="contactForm" action="https://formspree.io/f/XXXXXXXX" method="POST" class="bg-white p-6 rounded-2xl shadow" data-aos="fade-left">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde ARTELECOM">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="label">Nombre</label>
+              <input class="input" type="text" name="nombre" required>
+            </div>
+            <div>
+              <label class="label">Teléfono</label>
+              <input class="input" type="tel" name="telefono" required>
+            </div>
+          </div>
+          <div class="mt-4">
+            <label class="label">Correo</label>
+            <input class="input" type="email" name="email" required>
+          </div>
+          <div class="mt-4">
+            <label class="label">Servicio</label>
+            <select class="input" name="servicio" required>
+              <option>Electricidad</option>
+              <option>Remodelación</option>
+              <option>Impermeabilizaciones</option>
+            </select>
+          </div>
+          <div class="mt-4">
+            <label class="label">Mensaje</label>
+            <textarea class="input h-32" name="mensaje" required></textarea>
+          </div>
+          <div class="mt-6 flex items-center justify-between">
+            <button class="btn-primary" type="submit">Enviar</button>
+            <span id="formMsg" class="text-sm text-gray-600"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2">
+          <div class="h-9 w-9 rounded-xl bg-brand flex items-center justify-center text-white font-bold">AR</div>
+          <span class="font-bold">ARTELECOM</span>
+        </div>
+        <p class="mt-3 text-gray-400 text-sm">Electricidad • Remodelación • Impermeabilizaciones</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Servicios</h4>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          <li>Electricidad</li>
+          <li>Remodelación</li>
+          <li>Impermeabilizaciones</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Contacto</h4>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          <li><a href="https://wa.me/527296853914" target="_blank" rel="noopener">+52 729 685 3914</a></li>
+          <li><a href="mailto:randaleonel@gmail.com">randaleonel@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Síguenos</h4>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          <li><a href="#" class="hover:underline">Facebook</a></li>
+          <li><a href="#" class="hover:underline">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 text-center text-gray-500 text-sm py-4">© <span id="year"></span> ARTELECOM. Todos los derechos reservados.</div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
